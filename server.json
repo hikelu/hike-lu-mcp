@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "lu.hike/hike-lu-mcp",
+  "title": "hike.lu — Luxembourg Hiking Events, Trails & Walks",
+  "description": "Luxembourg hikes, trails, walks, outdoor events in Luxembourg City, Vianden, Mullerthal.",
+  "version": "1.0.0",
+  "websiteUrl": "https://hike.lu",
+  "repository": {
+    "url": "https://github.com/hikelu/hike-lu-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hike.lu/wp-json/hike-lu/v1/mcp"
+    }
+  ]
+}
